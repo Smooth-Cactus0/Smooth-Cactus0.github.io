@@ -5,8 +5,6 @@ dateStart: "2024-01-01"
 dateEnd: "Present"
 ---
 
-Passionate about building ML systems that generalise — not just fit.
+Hello there,
 
-I work across domains: clinical prediction, wildlife re-identification, astrophysics, NLP. Each project is an end-to-end pipeline: EDA, feature engineering, modelling, calibration.
-
-Currently building a public portfolio of Kaggle competitions and ML experiments, documenting methodology so others can learn from the approach.
+Here's my little page with different projects : some kaggle competitions, some Computer Vision projects, a bit of dabbling with NLP, a bunch of Machine Learning for tabular data notebooks, a couple of dashboards and some personal favorites with science related projects, mainly astrophysics for now.
