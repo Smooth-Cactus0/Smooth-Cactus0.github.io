@@ -1,81 +1,63 @@
-import type { Site, Page, Links, Socials } from "@types"
+import type { Site, Page, Links, Socials } from "@types";
 
-// Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
-}
+  TITLE: "Alexy Louis",
+  DESCRIPTION: "ML Engineer & Data Scientist — building end-to-end ML systems across CV, NLP, tabular, and astrophysics.",
+  AUTHOR: "Alexy Louis",
+};
 
-// Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
-}
+  TITLE: "About",
+  DESCRIPTION: "Background and experience.",
+};
 
-// Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
-}
+  DESCRIPTION: "Writing on ML, experiments, and lessons learned.",
+};
 
-// Projects Page 
 export const PROJECTS: Page = {
   TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
-}
+  DESCRIPTION: "ML and data science projects across computer vision, NLP, tabular data, and astrophysics.",
+};
 
-// Search Page
 export const SEARCH: Page = {
   TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
-}
+  DESCRIPTION: "Search all posts and projects.",
+};
 
-// Links
 export const LINKS: Links = [
-  { 
-    TEXT: "Home", 
-    HREF: "/", 
+  {
+    TEXT: "Home",
+    HREF: "/",
   },
-  { 
-    TEXT: "Work", 
-    HREF: "/work", 
+  {
+    TEXT: "Projects",
+    HREF: "/projects",
   },
-  { 
-    TEXT: "Blog", 
-    HREF: "/blog", 
+  {
+    TEXT: "About",
+    HREF: "/work",
   },
-  { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
-  },
-]
+];
 
-// Socials
 export const SOCIALS: Socials = [
-  { 
-    NAME: "Email",
-    ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
-  },
-  { 
+  {
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "Smooth-Cactus0",
+    HREF: "https://github.com/Smooth-Cactus0",
   },
-  { 
+  {
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    TEXT: "alexy-louis",
+    HREF: "https://www.linkedin.com/in/alexy-louis-19a5a9262/",
   },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+  {
+    NAME: "Kaggle",
+    ICON: "kaggle",
+    TEXT: "alexycactus",
+    HREF: "https://www.kaggle.com/alexycactus",
   },
-]
-
+];
